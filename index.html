@@ -1,295 +1,461 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8"> <!-- Specifies the character encoding for the document -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Sets the viewport width to the device width and initial scale to 1.0 for better mobile responsiveness -->
-    <meta name="description" content="This is my portfolio website showcasing my projects and skills."> <!-- Description of your website -->
-    <meta name="keywords" content="portfolio, projects, skills, web development"> <!-- Keywords related to your website -->
-    <meta name="author" content="Seamor N. Estrabon"> <!-- Author of the website -->
-    <title>Seamor Estrabon Portfolio</title> <!-- Title of your website -->
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Specifies the character encoding for the document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Sets the viewport width to the device width and initial scale to 1.0 for better mobile responsiveness -->
+    <meta
+      name="description"
+      content="This is my portfolio website showcasing my projects and skills."
+    />
+    <!-- Description of your website -->
+    <meta
+      name="keywords"
+      content="portfolio, projects, skills, web development"
+    />
+    <!-- Keywords related to your website -->
+    <meta name="author" content="Seamor N. Estrabon" />
+    <!-- Author of the website -->
+    <title>Seamor Estrabon Portfolio</title>
+    <!-- Title of your website -->
 
     <!-- Open Graph meta tags for better sharing on social media -->
-    <meta property="og:title" content="Your Portfolio Website Title">
-    <meta property="og:description" content="This is my portfolio website showcasing my projects and skills.">
-    <meta property="og:image" content="https://example.com/your-image.jpg"> <!-- URL to an image to be displayed when shared -->
-    <meta property="og:url" content="https://example.com"> <!-- URL to your website -->
+    <meta property="og:title" content="Your Portfolio Website Title" />
+    <meta
+      property="og:description"
+      content="This is my portfolio website showcasing my projects and skills."
+    />
+    <meta property="og:image" content="https://example.com/your-image.jpg" />
+    <!-- URL to an image to be displayed when shared -->
+    <meta property="og:url" content="https://example.com" />
+    <!-- URL to your website -->
 
-      <!-- Favicon -->
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
 
     <!-- Stylesheets, scripts, and other necessary links -->
     <link rel="stylesheet" href="styles.css" />
 
     <!-- Link javascript file-->
     <script src="javascript.js" defer></script>
-</head>
-<body>
+  </head>
+  <body>
     <div id="m-container">
-        <!--Loading Screen-->
-        <!--Dynamic Background-->
-        <div>
-            <div class='solar-syst'>
-                <div class='sun'></div>
-                <div class='mercury'></div>
-                <div class='venus'></div>
-                <div class='earth'></div>
-                <div class='mars'></div>
-                <div class='jupiter'></div>
-                <div class='saturn'></div>
-                <div class='uranus'></div>
-                <div class='neptune'></div>
-                <div class='pluto'></div>
-                <div class='asteroids-belt'></div>
+      <!--Loading Screen-->
+      <!--Dynamic Background-->
+      <div>
+        <div class="solar-syst">
+          <div class="sun"></div>
+          <div class="mercury"></div>
+          <div class="venus"></div>
+          <div class="earth"></div>
+          <div class="mars"></div>
+          <div class="jupiter"></div>
+          <div class="saturn"></div>
+          <div class="uranus"></div>
+          <div class="neptune"></div>
+          <div class="pluto"></div>
+          <div class="asteroids-belt"></div>
+        </div>
+      </div>
+      <!-- Header section -->
+      <div id="header" class="section">
+        <div id="logo">
+          <img src="images/tc.jpeg" id="header-img" alt="My Logo" />
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div id="menu">
+          <div id="bar1" class="bars"></div>
+          <div id="bar2" class="bars"></div>
+          <div id="bar3" class="bars"></div>
+        </div>
+      </div>
+      <!-- Hero section -->
+      <div id="hero" class="section">
+        <div id="hero-header"></div>
+        <div id="hero-info">
+          <div id="hero-text">
+            <h3><strong> ━━ &nbsp; I am </strong></h3>
+            <h1>Seamor Estrabon</h1>
+            <p>
+              An aspiring <strong>Full-Stack Developer</strong> from the
+              Philippines, showcasing my passion for crafting dynamic web
+              solutions.
+            </p>
+            <button>Download CV</button>
+          </div>
+          <div id="hero-aside">
+            <div data-js="astro" class="astronaut">
+              <div class="head"></div>
+              <div class="arm arm-left"></div>
+              <div class="arm arm-right"></div>
+              <div class="body">
+                <div class="panel"></div>
+              </div>
+              <div class="leg leg-left"></div>
+              <div class="leg leg-right"></div>
+              <div class="schoolbag"></div>
             </div>
+          </div>
         </div>
-        <!-- Header section -->
-        <div id="header" class="section">
-            <div id="logo">
-                <img src="images/tc.jpeg" id="header-img" alt="My Logo">
+        <div id="socials">
+          <ul>
+            <li>
+              <a href="https://github.com/CeeZ11">
+                <img src="icons/github.png" alt="GitHub" id="github" />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/seamor-estrabon-771247172/">
+                <img src="icons/linkedin.png" alt="LinkedIn" id="linkedin" />
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/Seeeeaz">
+                <img src="icons/twitter.png" alt="Twitter" id="twitter" />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/seaznoquera/">
+                <img src="icons/facebook.png" alt="Facebook" id="facebook" />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/cee_noquera/">
+                <img src="icons/instagram.png" alt="Instagram" id="instagram" />
+              </a>
+            </li>
+            <!-- Add more list items as needed -->
+          </ul>
+        </div>
+      </div>
+      <!-- About Me section -->
+      <div id="about-me" class="section">
+        <div id="about-me-title">
+          <h2>About Me</h2>
+        </div>
+        <div id="about-me-info">
+          <div id="img">
+            <img
+              src="images/Profile.jpg"
+              alt="Portfolio Image"
+              class="about-portfolio-img"
+            />
+          </div>
+          <div id="about-me-info-text">
+            <div id="about-profile" class="aboutInfo">
+              <h3>Career Overview</h3>
+              <p>
+                I'm Seamor N. Estrabon, a highly motivated and detail-oriented
+                professional with a strong foundation in web development. I've
+                acquired my skills through comprehensive training in the
+                OdinProject curriculum, where I successfully completed various
+                projects. With a Bachelor’s degree in Information Technology,
+                specializing in web and mobile development, I'm passionate about
+                creating exceptional digital experiences.
+              </p>
             </div>
-            <nav>
-                <ul>
-                    <li><a href="#hero">Home</a></li>
-                    <li><a href="#about-me">About Me</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#resume">Resume</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-            <div id="menu">
-                <div id="bar1" class ='bars'></div>
-                <div id="bar2" class ='bars'></div>
-                <div id="bar3" class = 'bars'></div>
+            <div id="about-interests" class="aboutInfo">
+              <h3>My Interests</h3>
+              <p>
+                Outside of work, I have a variety of interests and passions.
+              </p>
+              <ul>
+                <li>
+                  <img src="icons/game-controller.png" alt="" /><span
+                    >Gaming</span
+                  >
+                </li>
+                <li><img src="icons/chess.png" alt="" /><span>Chess</span></li>
+                <li>
+                  <img src="icons/problem-solving.png" alt="" /><span
+                    >Problem-solving</span
+                  >
+                </li>
+                <li>
+                  <img src="icons/editing.png" alt="" /><span
+                    >Video editing</span
+                  >
+                </li>
+                <li>
+                  <img src="icons/photo-editing.png" alt="" /><span
+                    >Photo editing</span
+                  >
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <img src="icons/cooking.png" alt="" /><span>Cooking</span>
+                </li>
+                <li>
+                  <img src="icons/coffee-cup.png" alt="" /><span>Coffee</span>
+                </li>
+                <li><img src="icons/music.png" alt="" /><span>Music</span></li>
+                <li><img src="icons/book.png" alt="" /><span>Reading</span></li>
+                <li>
+                  <img src="icons/tv-show.png" alt="" /><span>TV shows</span>
+                </li>
+              </ul>
             </div>
-        </div>
-        <!-- Hero section -->
-        <div id="hero" class="section">
-                <div id="hero-header">
-                </div>
-                <div id="hero-info">
-                    <div id="hero-text">
-                        <h3><strong> ━━ &nbsp; I am </strong></h3>
-                        <h1>Seamor Estrabon</h1>
-                        <p>An aspiring <strong>Full-Stack Developer</strong> from the Philippines, showcasing my passion for crafting dynamic web solutions.</p>
-                        <button>Download CV</button>
-                    </div>
-                    <div id="hero-aside">
-                        <div data-js="astro" class="astronaut">
-                            <div class="head"></div>
-                            <div class="arm arm-left"></div>
-                            <div class="arm arm-right"></div>
-                            <div class="body">
-                            <div class="panel"></div>
-                            </div>
-                            <div class="leg leg-left"></div>
-                            <div class="leg leg-right"></div>
-                            <div class="schoolbag"></div>
-                        </div>
-                    </div>
-                </div>
-                <div id="socials">
-                    <ul>
-                        <li>
-                            <a href="https://github.com/CeeZ11">
-                                <img src="icons/github.png" alt="GitHub" id="github">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/seamor-estrabon-771247172/">
-                                <img src="icons/linkedin.png" alt="LinkedIn" id="linkedin">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/Seeeeaz">
-                                <img src="icons/twitter.png" alt="Twitter" id="twitter">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/seaznoquera/">
-                                <img src="icons/facebook.png" alt="Facebook" id="facebook">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.instagram.com/cee_noquera/">
-                                <img src="icons/instagram.png" alt="Instagram" id="instagram">
-                            </a>
-                        </li>
-                        <!-- Add more list items as needed -->
-                    </ul>
-                </div>
-        </div>
-        <!-- About Me section -->
-        <div id="about-me" class="section">     
-            <div id="about-me-title">
-                <h2>About Me</h2>
+            <div id="about-aspiration" class="aboutInfo">
+              <h3>Aspiration</h3>
+              <p>
+                In the future, I aspire to transition into mobile development
+                and pursue opportunities in the gaming industry. Working for a
+                gaming company or building my own mobile game is a dream of
+                mine, and I'm excited about the prospect of combining my
+                technical skills with my passion for gaming to create immersive
+                and engaging experiences for players.
+              </p>
             </div>
-            <div id="about-me-info">
-                <div id="img">
-                    <img src="images/Profile.jpg" alt="Portfolio Image" class="about-portfolio-img">
-                </div>
-                <div id="about-me-info-text">
-                    <div id="about-profile" class="aboutInfo">
-                        <h3>Career Overview</h3>
-                        <p>I'm Seamor N. Estrabon, a highly motivated and detail-oriented professional with a strong foundation in web development. I've acquired my skills through comprehensive training in the OdinProject curriculum, where I successfully completed various projects. With a Bachelor’s degree in Information Technology, specializing in web and mobile development, I'm passionate about creating exceptional digital experiences.</p>
-                    </div>
-                    <div id="about-interests" class="aboutInfo">
-                        <h3>My Interests</h3>
-                        <p>Outside of work, I have a variety of interests and passions.</p>
-                        <ul>
-                            <li><img src="icons/game-controller.png" alt=""><span>Gaming</span></li>
-                            <li><img src="icons/chess.png" alt=""><span>Chess</span></li>
-                            <li><img src="icons/problem-solving.png" alt=""><span>Problem-solving</span></li>
-                            <li><img src="icons/editing.png" alt=""><span>Video editing</span></li>
-                            <li><img src="icons/photo-editing.png" alt=""><span>Photo editing</span></li>
-                        </ul>
-                        <ul>
-                            <li><img src="icons/cooking.png" alt=""><span>Cooking</span></li>
-                            <li><img src="icons/coffee-cup.png" alt=""><span>Coffee</span></li>
-                            <li><img src="icons/music.png" alt=""><span>Music</span></li>
-                            <li><img src="icons/book.png" alt=""><span>Reading</span></li>
-                            <li><img src="icons/tv-show.png" alt=""><span>TV shows</span></li>
-                        </ul>
-                    </div>
-                    <div id="about-aspiration" class="aboutInfo">
-                        <h3>Aspiration</h3>
-                        <p>In the future, I aspire to transition into mobile development and pursue opportunities in the gaming industry. Working for a gaming company or building my own mobile game is a dream of mine, and I'm excited about the prospect of combining my technical skills with my passion for gaming to create immersive and engaging experiences for players.</p>
-                    </div>  
-                    <div id="about-passion" class="aboutInfo">
-                        <h3>Passion</h3>
-                        <p>I'm passionate about web development, particularly in creating engaging user experiences. I enjoy learning new technologies and applying them to solve real-world problems. My goal is to continue growing as a developer and contribute to innovative projects.</p>
-                    </div>       
-                </div>
+            <div id="about-passion" class="aboutInfo">
+              <h3>Passion</h3>
+              <p>
+                I'm passionate about web development, particularly in creating
+                engaging user experiences. I enjoy learning new technologies and
+                applying them to solve real-world problems. My goal is to
+                continue growing as a developer and contribute to innovative
+                projects.
+              </p>
             </div>
-                
+          </div>
         </div>
-        <!-- Portfolio section -->
-        <div id="portfolio" class="section">
-                    <div id="portfolio-title">
-                        <h2>Portfolio</h2>
-                    </div>
-                    <!-- Carousel -->
-                    
-                    <div id="carousel">
-                        <div id="carousel-inner">
-                            <!-- Project slides -->
-                            <div class="carousel-slide">
-                                <img src="https://ceez-11.github.io/Odin-Project-Recipes/" class="websiteScreenshot" alt="Recipes Project">
-                                <h3>Recipes Project</h3>
-                                <p>Description of Recipes project...</p>
-                            </div>
-                            <div class="carousel-slide">
-                                <img src="https://ceez-11.github.io/Odin-Project-Landing-Page/" class="websiteScreenshot" alt="Landing Page Project">
-                                <h3>Landing Page Project</h3>
-                                <p>Description of Landing Page project...</p>
-                            </div>
-                            <div class="carousel-slide">
-                                <img src="https://ceez-11.github.io/Odin-Project-Rock-Paper-Scissors/" class="websiteScreenshot" alt="Rock Paper Scissors Project">
-                                <h3>Rock Paper Scissors Project</h3>
-                                <p>Description of Rock Paper Scissors project...</p>
-                            </div>
-                            <div class="carousel-slide">
-                                <img src="https://ceez-11.github.io/Odin-Project-Etch-a-Sketch/" class="websiteScreenshot" alt="Etch-a-Sketch Project">
-                                <h3>Etch-a-Sketch Project</h3>
-                                <p>Description of Etch-a-Sketch project...</p>
-                            </div>
-                            <div class="carousel-slide">
-                                <img src="https://ceez-11.github.io/Odin-Project-Calculator/" class="websiteScreenshot" alt="Calculator Project">
-                                <h3>Calculator Project</h3>
-                                <p>Description of Calculator project...</p>
-                            </div>
-                        </div>
-                        <a id="carousel-control-prev" href="#portfolio" role="button" data-slide="prev">&lt;</a>
-                        <a id="carousel-control-next" href="#portfolio" role="button" data-slide="next">&gt;</a>
-                    </div>
+      </div>
+      <!-- Portfolio section -->
+      <div id="portfolio" class="section">
+        <div id="portfolio-title">
+          <h2>Portfolio</h2>
         </div>
-        <!-- Resume section -->
-        <div id="resume" class="section">
-                <div id="resume-title">
-                    <h2>Resume</h2>
-                    <!-- Downloadable PDF version of your resume or CV -->
-                    <a href="#">Download CV</a>
-                </div>
-                <div id="resume-info">
-                    <div id="technical" class="resumeInfo">
-                        <h3>Technical Skills</h3>
-                        <ul>
-                            <li>Programming Languages: C++, PHP, JavaScript</li>
-                            <li>Development Tools: Node.js, Jest</li>
-                            <li>Markup Languages: HTML, CSS</li>
-                            <li>APIs: RESTful APIs, DOM manipulation</li>
-                            <li>Software: Microsoft Office Suite, Photoshop, Google SketchUp, Adobe Premiere Pro</li>
-                        </ul>
-                    </div>
-                    <div id="soft" class="resumeInfo">
-                        <h3>Soft Skills</h3>
-                        <ul>
-                            <li>Attention to Detail: Meticulously review data, ensuring accuracy in logistics information and customer inquiries.</li><br>
-                            <li>Communication: Effectively communicate with customers and colleagues to address inquiries, provide support, and deliver reports.</li><br>
-                            <li>Problem-Solving: Strong analytical skills honed through interpreting logistics data and devising solutions to optimize supply chain operations.</li><br>
-                            <li>Technical Proficiency: Proficient in utilizing various software and tools, including CRM systems, to streamline processes.</li><br>
-                            <li>Team Collaboration: Collaborate with cross-functional teams to resolve issues and achieve organizational goals.</li>
-                        </ul>
-                    </div>
-                
-                    <div id="experience" class="resumeInfo">
-                        <h3>Experiences</h3>
-                        <p>I have experience working as a Logistic Coordinator at Rulewave, where I effectively coordinated and monitored supply chain operations. Additionally, my background as an IT Educator at the University of St. La Salle equipped me with strong communication and teaching skills.</p>
-                    </div>
-                    <div id="education" class="resumeInfo">
-                        <h3>Education</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, animi labore provident odit quos pariatur doloribus dolorum consequatur recusandae inventore sint iure! Quam accusantium modi repellendus magni, iure cumque natus!</p>
-                    </div>
-                </div>
-        </div>
-        <!-- Contact section -->
-        <div id="contact" class="section">
-                    <div id="contact-title">
-                        <h2>Contact</h2>
-                    </div>
-                    
-                    <div id="contact-container">
-                        <div id="contact-details">
-                            <!-- Email address and phone number -->
-                            <h3> Contact Details</h3>
-                            <p>Address: Bacolod City, Philippines</p>
-                            <p>Email: seamorestrabon@gmail.com</p>
-                            <p>Phone: +63 927 066 4116</p>
-                        </div>
+        <!-- Carousel -->
 
-                        <div id="contact-form">
-                        <!-- Contact form -->   
-                        <form action="/submit-form" method="post" novalidate>
-                            <!-- Your contact form fields here -->
-                            <h3> Let's Talk!</h3>
-                            <div id="form-input-1">
-                            <input type="text" id="name" name="name"placeholder="Name" style="opacity: 0.5;">
-                            <input type="email" id="email" name="email"placeholder="Email" style="opacity: 0.5;">
-                            </div>
-
-                            <div id="form-input-2">
-                            <input type="tel" id="phone" name="phone" placeholder="Phone" style="opacity: 0.5;">
-                            <input type="text" id="subject" name="subject" placeholder="Subject" style="opacity: 0.5;">
-                            </div>
-
-                            <div id="form-message">
-                            <textarea id="message" name="message" rows="4" cols="50" placeholder="Message" style="opacity: 0.5;"></textarea>
-                            </div>
-                           
-                            <div id="form-submit">
-                            <input type="submit" value="Submit" id="submit-contact">
-                            <input type="reset" value="Reset" id="reset-contact">
-                           </div>
-                        </form>
-                        </div>
-                    </div>
+        <div id="carousel">
+          <div id="carousel-inner">
+            <!-- Project slides -->
+            <div class="carousel-slide">
+              <img
+                src="https://ceez-11.github.io/Odin-Project-Recipes/"
+                class="websiteScreenshot"
+                alt="Recipes Project"
+              />
+              <h3>Recipes Project</h3>
+              <p>Description of Recipes project...</p>
+            </div>
+            <div class="carousel-slide">
+              <img
+                src="https://ceez-11.github.io/Odin-Project-Landing-Page/"
+                class="websiteScreenshot"
+                alt="Landing Page Project"
+              />
+              <h3>Landing Page Project</h3>
+              <p>Description of Landing Page project...</p>
+            </div>
+            <div class="carousel-slide">
+              <img
+                src="https://ceez-11.github.io/Odin-Project-Rock-Paper-Scissors/"
+                class="websiteScreenshot"
+                alt="Rock Paper Scissors Project"
+              />
+              <h3>Rock Paper Scissors Project</h3>
+              <p>Description of Rock Paper Scissors project...</p>
+            </div>
+            <div class="carousel-slide">
+              <img
+                src="https://ceez-11.github.io/Odin-Project-Etch-a-Sketch/"
+                class="websiteScreenshot"
+                alt="Etch-a-Sketch Project"
+              />
+              <h3>Etch-a-Sketch Project</h3>
+              <p>Description of Etch-a-Sketch project...</p>
+            </div>
+            <div class="carousel-slide">
+              <img
+                src="https://ceez-11.github.io/Odin-Project-Calculator/"
+                class="websiteScreenshot"
+                alt="Calculator Project"
+              />
+              <h3>Calculator Project</h3>
+              <p>Description of Calculator project...</p>
+            </div>
+          </div>
+          <a
+            id="carousel-control-prev"
+            href="#portfolio"
+            role="button"
+            data-slide="prev"
+            >&lt;</a
+          >
+          <a
+            id="carousel-control-next"
+            href="#portfolio"
+            role="button"
+            data-slide="next"
+            >&gt;</a
+          >
         </div>
-        <!-- Footer -->
-        <div id="footer" class="section">
-                <!-- Copyright notice -->
-                <small>©2024 Seamor Estrabon, All rights reserved</small>
-                <!-- Links to legal pages -->
-                <!-- Social media icons -->
+      </div>
+      <!-- Resume section -->
+      <div id="resume" class="section">
+        <div id="resume-title">
+          <h2>Resume</h2>
+          <!-- Downloadable PDF version of your resume or CV -->
+          <a href="#">Download CV</a>
         </div>
+        <div id="resume-info">
+          <div id="technical" class="resumeInfo">
+            <h3>Technical Skills</h3>
+            <ul>
+              <li>Programming Languages: C++, PHP, JavaScript</li>
+              <li>Development Tools: Node.js, Jest</li>
+              <li>Markup Languages: HTML, CSS</li>
+              <li>APIs: RESTful APIs, DOM manipulation</li>
+              <li>
+                Software: Microsoft Office Suite, Photoshop, Google SketchUp,
+                Adobe Premiere Pro
+              </li>
+            </ul>
+          </div>
+          <div id="soft" class="resumeInfo">
+            <h3>Soft Skills</h3>
+            <ul>
+              <li>
+                Attention to Detail: Meticulously review data, ensuring accuracy
+                in logistics information and customer inquiries.
+              </li>
+              <br />
+              <li>
+                Communication: Effectively communicate with customers and
+                colleagues to address inquiries, provide support, and deliver
+                reports.
+              </li>
+              <br />
+              <li>
+                Problem-Solving: Strong analytical skills honed through
+                interpreting logistics data and devising solutions to optimize
+                supply chain operations.
+              </li>
+              <br />
+              <li>
+                Technical Proficiency: Proficient in utilizing various software
+                and tools, including CRM systems, to streamline processes.
+              </li>
+              <br />
+              <li>
+                Team Collaboration: Collaborate with cross-functional teams to
+                resolve issues and achieve organizational goals.
+              </li>
+            </ul>
+          </div>
+
+          <div id="experience" class="resumeInfo">
+            <h3>Experiences</h3>
+            <p>
+              I have experience working as a Logistic Coordinator at Rulewave,
+              where I effectively coordinated and monitored supply chain
+              operations. Additionally, my background as an IT Educator at the
+              University of St. La Salle equipped me with strong communication
+              and teaching skills.
+            </p>
+          </div>
+          <div id="education" class="resumeInfo">
+            <h3>Education</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
+              animi labore provident odit quos pariatur doloribus dolorum
+              consequatur recusandae inventore sint iure! Quam accusantium modi
+              repellendus magni, iure cumque natus!
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Contact section -->
+      <div id="contact" class="section">
+        <div id="contact-title">
+          <h2>Contact</h2>
+        </div>
+
+        <div id="contact-container">
+          <div id="contact-details">
+            <!-- Email address and phone number -->
+            <h3>Contact Details</h3>
+            <p>Address: Bacolod City, Philippines</p>
+            <p>Email: seamorestrabon@gmail.com</p>
+            <p>Phone: +63 927 066 4116</p>
+          </div>
+
+          <div id="contact-form">
+            <!-- Contact form -->
+            <form action="/submit-form" method="post" novalidate>
+              <!-- Your contact form fields here -->
+              <h3>Let's Talk!</h3>
+              <div id="form-input-1">
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Name"
+                  style="opacity: 0.5"
+                />
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Email"
+                  style="opacity: 0.5"
+                />
+              </div>
+
+              <div id="form-input-2">
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  placeholder="Phone"
+                  style="opacity: 0.5"
+                />
+                <input
+                  type="text"
+                  id="subject"
+                  name="subject"
+                  placeholder="Subject"
+                  style="opacity: 0.5"
+                />
+              </div>
+
+              <div id="form-message">
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="4"
+                  cols="50"
+                  placeholder="Message"
+                  style="opacity: 0.5"
+                ></textarea>
+              </div>
+
+              <div id="form-submit">
+                <input type="submit" value="Submit" id="submit-contact" />
+                <input type="reset" value="Reset" id="reset-contact" />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- Footer -->
+      <div id="footer" class="section">
+        <!-- Copyright notice -->
+        <small>©2024 Seamor Estrabon, All rights reserved</small>
+        <!-- Links to legal pages -->
+        <!-- Social media icons -->
+      </div>
     </div>
-</body>
+  </body>
 </html>
