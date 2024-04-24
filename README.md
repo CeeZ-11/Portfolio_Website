@@ -38,7 +38,6 @@ As an aspiring web developer, I am actively building my portfolio and gaining ha
 ## Open-Source Components
 
 - **Dynamic Background:** Implemented a real-time scaled solar system as a dynamic background element sourced from [CodePen](https://codepen.io/kowlor/pen/ZYYQoy), authored by Malik Dellidj. This component is utilized under the MIT License.
-- **Astronaut Loader:** Incorporating an animated astronaut loader component sourced from [UIVerse](https://uiverse.io/JkHuger/new-deer-97) , designed by JkHuger.
 
 ## External Code Snippet
 
@@ -62,12 +61,6 @@ Earth : ~365,2563 days
 ![alt text](images/solar-html.png)
 
 ![alt text](images/solar-css.png)
-
-Below is a code snippet obtained from [JkHuger](https://uiverse.io/JkHuger/new-deer-97) that I've incorporated into my website:
-
-![alt text](images/astronaut-html.png)
-
-![alt text](images/astronaut-css.png)
 
 ### Contact Me
 
