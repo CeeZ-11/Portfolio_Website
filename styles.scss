@@ -690,13 +690,34 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #161922;
-  border-radius: 5%;
-  font-size: clamp(12px, 3vw, 18px);
+  font-size: clamp(13px, 1.5vw, 18px);
   flex: 3 0;
-  height: 440px;
+  height: 524px;
+  max-height: 524px;
   padding: 50px;
   min-width: 300px;
   margin: 2.5% 5%;
+}
+
+.c-details {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 15px;
+}
+
+#ct-b {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+#contact-details img {
+  width: clamp(15px, 7vw, 40px);
+  height: clamp(15px, 7vw, 40px);
 }
 
 #contact-form {
