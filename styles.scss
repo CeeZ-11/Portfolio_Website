@@ -758,6 +758,15 @@ body {
   gap: 10px;
 }
 
+#submit-contact,
+#reset-contact {
+  color: white;
+  background-color: #1c2837;
+  font-family: "Recursive", sans-serif;
+  border: none;
+  justify-content: center;
+}
+
 #name {
   min-width: 125px;
   display: flex;
