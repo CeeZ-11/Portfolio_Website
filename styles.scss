@@ -243,6 +243,20 @@ body {
   color: #ffcc71;
 }
 
+#download-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1c2837;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  width: clamp(70px, 30%, 125px);
+  font-size: clamp(8px, 2vw, 12px);
+  height: 40px;
+  font-family: "Recursive", sans-serif;
+}
+
 #hero-info h1 {
   font-size: clamp(26px, 3.5vw, 135px);
   font-weight: 100;
@@ -270,16 +284,6 @@ body {
   justify-content: start;
   margin-top: 3%;
   flex: 1 0;
-}
-
-#hero-text button {
-  color: white;
-  width: clamp(70px, 30%, 125px);
-  font-size: clamp(8px, 2vw, 12px);
-  height: 40px;
-  background-color: #1c2837;
-  font-family: "Recursive", sans-serif;
-  border: none;
 }
 
 #hero-text button:hover {
