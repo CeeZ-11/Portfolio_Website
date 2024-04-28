@@ -404,16 +404,26 @@
 
           <div id="contact-form">
             <!-- Contact form -->
-            <form action="/submit-form" method="post" novalidate>
+            <form
+              action="https://api.web3forms.com/submit"
+              method="POST"
+              novalidate
+            >
               <!-- Your contact form fields here -->
               <h3>Let's Talk!</h3>
               <div id="form-input-1">
+                <input
+                  type="hidden"
+                  name="access_key"
+                  value="cfa50e5e-5c46-4a5b-a418-d3c479b3ef20"
+                />
                 <input
                   type="text"
                   id="name"
                   name="name"
                   placeholder="Name"
                   style="opacity: 0.5"
+                  required
                 />
                 <input
                   type="email"
@@ -421,6 +431,7 @@
                   name="email"
                   placeholder="Email"
                   style="opacity: 0.5"
+                  required
                 />
               </div>
 
@@ -449,11 +460,12 @@
                   cols="50"
                   placeholder="Message"
                   style="opacity: 0.5"
+                  required
                 ></textarea>
               </div>
 
               <div id="form-submit">
-                <input type="submit" value="Submit" id="submit-contact" />
+                <input type="submit" value="Submit" />
                 <input type="reset" value="Reset" id="reset-contact" />
               </div>
             </form>
