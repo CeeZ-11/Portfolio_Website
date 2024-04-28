@@ -762,13 +762,14 @@ body {
   gap: 10px;
 }
 
-.submit-contact,
+#form-submit button,
 #reset-contact {
   color: white;
   background-color: #1c2837;
   font-family: "Recursive", sans-serif;
   border: none;
   justify-content: center;
+  align-items: center;
 }
 
 #name {
@@ -805,7 +806,7 @@ body {
   height: 120px;
 }
 
-.submit-contact {
+#form-submit button {
   display: flex;
   flex: 3 0 auto;
   height: 30px;

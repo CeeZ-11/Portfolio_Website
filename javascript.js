@@ -83,12 +83,6 @@ document.addEventListener("DOMContentLoaded", function () {
   window.addEventListener("scroll", handleScroll);
 });
 
-document
-  .getElementById("submit-contact")
-  .addEventListener("click", function (event) {
-    event.preventDefault();
-  });
-
 //CAAROUSEL SLIDE
 function goToPrevSlide() {
   const slides = document.querySelectorAll(".carousel-slide");
