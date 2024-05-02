@@ -608,7 +608,7 @@ body {
 
 #resume ul {
   list-style-type: none;
-  padding: 20px;
+  padding: 0;
 }
 
 #resume-title {
@@ -642,6 +642,7 @@ body {
   flex-direction: column;
   flex: 1 0 50%;
   height: auto;
+  padding: 10px 20px;
 }
 
 #technical:hover,
@@ -649,6 +650,16 @@ body {
 #experience:hover,
 #education:hover {
   background-color: #191d28;
+}
+
+#experience p {
+  font-size: clamp(8px, 2vw, 15px);
+}
+
+#education p {
+  font-size: clamp(8px, 2vw, 15px);
+  padding: 0;
+  margin: 0;
 }
 
 #contact {
